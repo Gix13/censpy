@@ -4,7 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
-    open-pull-requests-limit: 3
+    # Requirements use compatible lower bounds; security alerts remain enabled separately.
+    open-pull-requests-limit: 0
     groups:
       routine-updates:
         update-types:
