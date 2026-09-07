@@ -1351,7 +1351,7 @@ def run_all():
             nrich_script = os.path.expanduser("./scripts/nrich_nmap_orchestrator.py")
             out_path = os.path.join(run_dir, "results_nrich.xlsx")
 
-            print("[stage] Censys run finished — starting NRICH phase...")
+            print("[stage] Censys run finished. Starting NRICH phase...")
 
             NRICH_BIN = resolve_nrich_path()  # auto-detect nrich binary
 
@@ -1456,7 +1456,7 @@ def run_all():
         print(f"[err] Failed running nrich: {e}")
 
     try:
-        print("[stage] NRICH finished (if available) — merging results...")
+        print("[stage] NRICH finished (if available). Merging results...")
         merge_censys_nrich(run_dir)
     except Exception as e:
         print(f"[err] Merge failed: {e}")

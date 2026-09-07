@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="docs/assets/banner.svg" alt="Censpy — evidence-driven host intelligence" width="100%">
+  <img src="docs/assets/banner.svg" alt="Censpy: evidence-driven host intelligence" width="100%">
+
+  <h3>Built by <a href="https://github.com/Gix13">Gio Abou Sleiman</a> for authorized penetration tests</h3>
 
   <p><strong>Turn authorized IP lists into reviewable, deduplicated host-intelligence evidence.</strong></p>
 
@@ -158,4 +160,4 @@ The publication copy is checked in CI with offline Python syntax tests and unit 
 
 ## Provenance
 
-Censpy was created by Gio Abou Sleiman as part of an offensive-security reconnaissance suite developed during a penetration-testing internship. This public edition is a sanitized portfolio copy: credentials, browser profiles, client targets, screenshots, and assessment results are intentionally excluded.
+Censpy was created by Gio Abou Sleiman for authorized penetration-testing engagements. This public edition is a sanitized portfolio copy: credentials, browser profiles, client targets, screenshots, and assessment results are intentionally excluded.
