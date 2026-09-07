@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Censpy</title>
+  <desc id="desc">Evidence-driven host intelligence</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#102b3f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#67e8f9" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <g transform="translate(92 86)">
+    <circle cx="118" cy="118" r="92" fill="#0c2030" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="118" cy="118" r="54" fill="none" stroke="#34d399" stroke-width="2" stroke-dasharray="7 9"/>
+    <path d="M118 22v192M22 118h192" stroke="#67e8f9" stroke-opacity=".45"/>
+    <circle cx="118" cy="118" r="8" fill="#f8fafc" filter="url(#glow)"/>
+    <circle cx="162" cy="84" r="7" fill="#34d399" filter="url(#glow)"/>
+    <circle cx="76" cy="154" r="6" fill="#22d3ee" filter="url(#glow)"/>
+    <path d="M118 118L162 84M118 118L76 154" stroke="url(#accent)" stroke-width="2"/>
+  </g>
+  <g transform="translate(365 112)">
+    <text x="0" y="80" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="86" font-weight="750" letter-spacing="-4">CENSPY</text>
+    <rect x="2" y="108" width="590" height="4" rx="2" fill="url(#accent)"/>
+    <text x="2" y="162" fill="#a5f3fc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28" letter-spacing="1">EVIDENCE-DRIVEN HOST INTELLIGENCE</text>
+    <text x="2" y="207" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">Censys collection · nrich enrichment · Nmap verification</text>
+  </g>
+</svg>

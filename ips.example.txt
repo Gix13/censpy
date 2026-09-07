@@ -1,0 +1,3 @@
+# Documentation-only TEST-NET addresses. Replace them in a local ips.txt file.
+192.0.2.10
+198.51.100.20

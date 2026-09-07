@@ -1,0 +1,3 @@
+# Copy this file to accounts.txt and replace the placeholder locally.
+# Format: email:password:remaining_request_count
+# analyst@example.invalid:REPLACE_WITH_LOCAL_PASSWORD:10

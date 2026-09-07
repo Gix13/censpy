@@ -1,0 +1,34 @@
+# Credentials and local target lists
+accounts.txt
+ips.txt
+.env
+.env.*
+!.env.example
+
+# Browser state can contain cookies, sessions, and saved login data
+user_profiles/
+playwright/.auth/
+
+# Scan and enrichment output
+runs/
+output/
+results/
+*.xlsx
+*.csv
+*.log
+*.png
+!docs/assets/*.png
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
